@@ -2,6 +2,7 @@
   "name": "nuxt-app",
   "private": true,
   "type": "module",
+  "deploy": "gh-pages --dotfiles -d .output/public",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -12,5 +13,8 @@
   "dependencies": {
     "nuxt": "^3.13.0",
     "vue": "latest"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
